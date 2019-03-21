@@ -26,7 +26,7 @@ urls = (
     '/clientes/edit/(.+)', 'application.controllers.clientes.edit.Edit',
     '/clientes/delete/(.+)', 'application.controllers.clientes.delete.Delete',
     '/clientes/insert', 'application.controllers.clientes.insert.Insert',
-    #'/api_table_name/?', 'application.api.table_name.api_table_name.Api_table_name',
+    '/api_clientes/?', 'application.api.clientes.api_clientes.Api_clientes',
 )
 
 if __name__ == "__main__":
